@@ -1,4 +1,4 @@
-
+#Importing Dependencies
 
 import sys
 import numpy as np
@@ -20,7 +20,8 @@ import datetime
 import seaborn as sns
 
 if __name__ == '__main__':
-    # input
+    
+    # input architecture 
     architecture = "random_forest"
 
     callbacks = [EarlyStopping(monitor='val_loss', min_delta=0.05, patience=10, restore_best_weights=True)]
