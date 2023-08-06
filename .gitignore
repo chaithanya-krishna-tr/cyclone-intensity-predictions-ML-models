@@ -1,0 +1,5 @@
+#Ignore compiled python files
+*.pyc
+
+#ignore checkpoint information
+.ipynb_checkpoints/
